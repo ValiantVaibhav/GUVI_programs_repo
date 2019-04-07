@@ -1,5 +1,10 @@
-n=int(input())
-if n%2==0:
-    print("Even")
-else:
-    print("Odd")
+try:
+    n=int(input())
+    if n%2==0:
+        print("Even")
+    else:
+        print("Odd")
+
+except ValueError:
+    print("Invalid")
+    
